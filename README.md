@@ -2,12 +2,14 @@
 
 Curated Claude Code plugins for skills, workflows, and productivity tools.
 
+This is a fork of [obra/superpowers-marketplace](https://github.com/obra/superpowers-marketplace). The `superpowers` and `superpowers-dev` plugins point at [mieubrisse/superpowers](https://github.com/mieubrisse/superpowers) instead of the upstream repo. That fork disables git worktree isolation, which causes agents to operate in the wrong directory and break workflows ([obra/superpowers#583](https://github.com/obra/superpowers/issues/583)). All other plugins still point at obra's repos.
+
 ## Installation
 
 Add this marketplace to Claude Code:
 
 ```bash
-/plugin marketplace add obra/superpowers-marketplace
+/plugin marketplace add mieubrisse/superpowers-marketplace
 ```
 
 ## Available Plugins
@@ -29,7 +31,7 @@ Add this marketplace to Claude Code:
 - Skills-search tool for discovery
 - SessionStart context injection
 
-**Repository:** https://github.com/obra/superpowers
+**Repository:** https://github.com/mieubrisse/superpowers
 
 ---
 
@@ -86,8 +88,9 @@ superpowers-marketplace/
 
 ## Support
 
-- **Issues**: https://github.com/obra/superpowers-marketplace/issues
-- **Core Plugin**: https://github.com/obra/superpowers
+- **Issues**: https://github.com/mieubrisse/superpowers-marketplace/issues
+- **Core Plugin**: https://github.com/mieubrisse/superpowers
+- **Upstream Marketplace**: https://github.com/obra/superpowers-marketplace
 
 ## License
 
